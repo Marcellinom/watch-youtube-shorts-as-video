@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Youtube Short to Video",
+    "version": "1.0",
+    "description": "Redirect youtube shorts to regular youtube video format",
+    "action": {
+        "default_title": "Click to redirect ot youtube video"
+    },
+    "icons":{
+        "128": "icon.png"
+    },
+    "permissions": ["tabs", "activeTab", "scripting"],
+    "background": {
+        "service_worker": "main.js"
+    }
+}
