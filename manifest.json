@@ -4,12 +4,12 @@
     "version": "1.0",
     "description": "Redirect youtube shorts to regular youtube video format",
     "action": {
-        "default_title": "Click to redirect ot youtube video"
+        "default_title": "Click to redirect to youtube video"
     },
     "icons":{
         "128": "icon.png"
     },
-    "permissions": ["tabs", "activeTab", "scripting"],
+    "permissions": ["tabs"],
     "background": {
         "service_worker": "main.js"
     }
